@@ -53,7 +53,7 @@ class Search {
   // }
 
 
-
+// Test Command for git humb
   getResults() {
     $.getJSON('http://vijaya.local/wp-json/wp/v2/posts?search=' + this.searchField.val(), function (posts) {
       alert(posts[0].title.rendered)
